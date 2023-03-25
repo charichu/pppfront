@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import LoginForm from '../components/login-form';
 
 export default function Home() {
   return (
@@ -18,8 +19,10 @@ export default function Home() {
         <p className={styles.description}>
           Test page for <code> the pen&paper pub</code>
         </p>
+        Login:
+        <LoginForm/>
         <p>
-          Read <Link href="/character/first">this page!</Link>
+          Register a new account <Link href="/account/register">here!</Link>
         </p>
       </main>
 
