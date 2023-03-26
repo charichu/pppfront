@@ -25,7 +25,7 @@ export default function LoginForm() {
                         alert(body.message);
                         throw errors;
                     }
-                    }}
+            }}
         >
             <Form>
                 <Field id="email" name="email" placeholder="email" />
